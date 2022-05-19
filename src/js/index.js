@@ -40,14 +40,16 @@ const errorMessages = {
 
 function showErrorMessage(inputType, input) {
   let message = '';
+  const inputfield = input.parentElement.querySelector('.input');
 
   errorTypes.forEach(error => {
+    
     if (input.validity[error]) {
       message = errorMessages[inputType][error];
+      inputfield.placeholder = '';
     }
 
-    if (message === 'Looks like this is not an email') {
-      const inputfield = input.parentElement.querySelector('.input');
+    if (message === 'Looks like this is not an email') {      
       inputfield.value = '';
       inputfield.classList.add('placeholder-red');
       inputfield.placeholder = 'email@example.com';
