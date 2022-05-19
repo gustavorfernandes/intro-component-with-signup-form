@@ -1,5 +1,5 @@
-@import url(./_variables.css);
-@import url(./_reset.css);
+@import url(./variables.css);
+@import url(./reset.css);
 
 body {
   align-items: center;  
