@@ -1,0 +1,23 @@
+.content__button {
+  background-color: var(--blue);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 7px 1px 0px;
+  color: var(--soft-white);
+  cursor: pointer;
+  font-weight: var(--300);
+  line-height: 1.75;
+  padding: 1rem 4rem;
+  text-align: center;
+  transition: .3s;
+  width: 85%;
+  margin-bottom: 1.5rem;
+}
+
+.content__button:hover {
+  background-color: var(--light-blue);
+}
+
+.content__button strong {
+  color: var(--white);
+  font-weight: var(--700);
+}

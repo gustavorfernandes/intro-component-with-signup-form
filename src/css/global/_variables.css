@@ -1,0 +1,17 @@
+:root {
+  --white: #ffffff;
+  --soft-white: #fdfdfd;
+  --red: hsl(0, 100%, 74%);
+  --green: hsl(154, 59%, 49%);
+  --light-green: hsl(154, 59%, 59%);
+  --blue: hsl(248, 32%, 49%);
+  --light-blue: hsl(248, 32%, 57%);
+  --dark-blue: hsl(249, 10%, 26%);
+  --grayish-blue: hsl(246, 25%, 77%);
+
+  --poppins: 'Poppins', sans-serif;
+  --300: 300;
+  --500: 500;
+  --600: 600;
+  --700: 700;
+}

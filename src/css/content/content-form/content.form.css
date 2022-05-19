@@ -1,0 +1,24 @@
+@import url(./inputs.css);
+@import url(./submit-button.css);
+@import url(./terms.css);
+
+.content__form {
+  align-items: center;
+  background: var(--white);
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 7px 1px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  justify-content: center;
+  margin-bottom: 4rem;
+  padding: 1.5rem;
+  width: 85%;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1.25rem;
+}

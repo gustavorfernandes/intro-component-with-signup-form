@@ -1,0 +1,8 @@
+.header__description {
+  color: var(--soft-white);
+  font-weight: var(--300);
+  line-height: 1.5;
+  margin-bottom: 4rem;
+  text-align: center;
+  width: 85%;
+}

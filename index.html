@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./src/assets/favicon-32x32.png">
+  <title>Intro component with sign up form</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./src/css/global/global.css">
+  <link rel="stylesheet" href="./src/css/header/header.css">
+  <link rel="stylesheet" href="./src/css/content/content.css">
+  <link rel="stylesheet" href="./src/css/content/content-form/content.form.css">
+</head>
+
+<body>
+  <header class="header">
+    <h1 class="header__title">Learn to code by watching others</h1>
+    <p class="header__description">See how experienced developers solve problems in real-time. Watching scripted
+      tutorials is great,
+      but understanding how developers think is invaluable.</p>
+  </header>
+  <main class="content">
+    <button class="content__button"><strong>Try it free 7 days</strong> then $20/mo. thereafter</button>
+    <form class="content__form">
+      <fieldset class="form-field">
+        <div class="input-container">
+          <input type="text" name="first-name" placeholder="First Name" class="input" id="first-name"
+            data-type="first-name" required>
+          <label class="input-label" for="first-name"></label>
+          <span class="input-error__span">This field is not valid</span>
+        </div>
+        <div class="input-container">
+          <input type="text" name="last-name" placeholder="Last Name" class="input" id="last-name"
+            data-type="last-name">
+          <label class="input-label" for="last-name"></label>
+          <span class="input-error__span">This field is not valid</span>
+        </div>
+        <div class="input-container">
+          <input type="email" name="email" placeholder="Email Address" class="input" id="email" data-type="email">
+          <label class="input-label" for="email"></label>
+          <span class="input-error__span">This field is not valid</span>
+        </div>
+        <div class="input-container">
+          <input type="password" name="password" placeholder="Password" class="input" id="password"
+            data-type="password">
+          <label class="input-label" for="password"></label>
+          <span class="input-error__span">This field is not valid</span>
+        </div>
+      </fieldset>
+      <button class="submit-button">Claim your free trial</button>
+      <p class="terms-and-services">By clicking the button, you are agreeing to our <strong>Terms and Services</strong></p>
+    </form>
+  </main>
+  <script src="./src/js/app.js" type="module"></script>
+</body>
+
+</html>
