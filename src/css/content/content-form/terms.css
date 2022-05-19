@@ -1,10 +1,10 @@
 .terms-and-services {
   color: var(--grayish-blue);
   font-size: .7rem;
-  text-align: center;
-  line-height: 2;
   font-weight: var(--300);
+  line-height: 2;
   padding: 0 1rem;
+  text-align: center;
   transition: .3s;
 }
 

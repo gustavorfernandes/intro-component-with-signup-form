@@ -1,0 +1,103 @@
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url(../../assets/bg-intro-desktop.png);
+    background-repeat: initial;
+    background-size: contain;
+    height: 100vh;
+  }
+
+  .header, main {
+    max-width: 768px;
+  }
+
+  .header__title {
+    font-size: 2.5rem;
+    line-height: 1.25;
+    margin-top: 1rem;
+    width: 60%;
+  }
+
+  .header__description {
+    font-size: 1.15rem;
+    margin-bottom: 1rem;
+  }
+
+  .content__form {
+    margin-bottom: 2rem;
+  }
+
+  .input {
+    font-size: .85rem;
+  }
+
+  .input__icon {
+    margin-left: 34rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  body {
+    align-items: flex-start;
+    flex-direction: row;
+    gap: 2rem;
+    height: 100vh;
+    margin: auto;
+    max-width: 1440px;
+    padding: 7rem 9rem;
+    width: 100vw;
+  }
+
+  .header {
+    align-self: center;
+  }
+
+  .header__title {
+    align-self: flex-start;
+    font-size: 3rem;
+    line-height: 1;
+    margin: 0;
+    margin-bottom: 1rem;
+    margin-right: 0;    
+    text-align: left;
+    width: 100%;
+  }
+
+  .header__description {
+    align-self: flex-start;
+    font-size: 1.05rem;
+    text-align: left;
+    width: 100%;
+  }
+
+  .content {
+    height: 100%;
+    width: 100%;
+  }
+
+  .content__button {
+    height: 4rem;
+    width: 100%;
+  }
+
+  .content__form {
+    margin: 0;
+    padding: 2.5rem;    
+    width: 100%;
+  }
+
+  .input__icon {
+    height: 30px;
+    margin-left: 26rem;
+    width: 30px;
+  }
+
+  .submit-button {
+    font-size: 1.25rem;
+    height: 3.75rem;
+  }
+
+  .terms-and-services {
+    font-size: .8rem;
+    margin-bottom: .25rem;
+  }
+}

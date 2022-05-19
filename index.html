@@ -13,6 +13,7 @@
   <link rel="stylesheet" href="./src/css/header/header.css">
   <link rel="stylesheet" href="./src/css/content/content.css">
   <link rel="stylesheet" href="./src/css/content/content-form/content.form.css">
+  <link rel="stylesheet" href="./src/css/responsive/responsive.css">
 </head>
 
 <body>
@@ -28,26 +29,30 @@
       <fieldset class="form-field">
         <div class="input-container">
           <input type="text" name="first-name" placeholder="First Name" class="input" id="first-name"
-            data-type="first-name" required>
+            data-type="firstName" required>
           <label class="input-label" for="first-name"></label>
-          <span class="input-error__span">This field is not valid</span>
+          <div class="input__icon"></div>
+          <span class="input__span">This field is not valid</span>          
         </div>
         <div class="input-container">
           <input type="text" name="last-name" placeholder="Last Name" class="input" id="last-name"
-            data-type="last-name">
+            data-type="lastName" required>
           <label class="input-label" for="last-name"></label>
-          <span class="input-error__span">This field is not valid</span>
+          <div class="input__icon"></div>
+          <span class="input__span">This field is not valid</span>
         </div>
         <div class="input-container">
-          <input type="email" name="email" placeholder="Email Address" class="input" id="email" data-type="email">
+          <input type="email" name="email" placeholder="Email Address" class="input" id="email" data-type="email" required>
           <label class="input-label" for="email"></label>
-          <span class="input-error__span">This field is not valid</span>
+          <div class="input__icon"></div>
+          <span class="input__span">This field is not valid</span>
         </div>
         <div class="input-container">
           <input type="password" name="password" placeholder="Password" class="input" id="password"
-            data-type="password">
+            data-type="password" required>
           <label class="input-label" for="password"></label>
-          <span class="input-error__span">This field is not valid</span>
+          <div class="input__icon"></div>
+          <span class="input__span">This field is not valid</span>
         </div>
       </fieldset>
       <button class="submit-button">Claim your free trial</button>

@@ -12,5 +12,8 @@ body {
   flex-direction: column;
   font-family: var(--poppins);
   justify-content: center;
-  width: 100vw;
+}
+
+main {
+  max-width: 375px;
 }
